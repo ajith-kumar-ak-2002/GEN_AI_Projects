@@ -1,0 +1,33 @@
+# Environment variables & secrets (CRITICAL: Never commit API keys!)
+.env
+.env.local
+.env.*.local
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector databases & local sqlite caches
+vector.db/
+*.sqlite3
+apps/my_task.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
